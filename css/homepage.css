@@ -1,0 +1,67 @@
+.main-wrapper {
+    background-color: var(--bg-dark);
+    height: calc(100vh - 138px);
+    min-height: fit-content;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-homepage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+/* Text styles */
+.text-container {
+    margin-top: -46px;
+    color: var(--items-light);
+    text-align: center;
+    font-size: 1.8rem; 
+}
+
+.text-container h2 {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+}
+
+.text-container span {
+    color: var(--accent-dark);
+    text-shadow: 2px 1px 1px var(--items-light);
+}
+
+.text-container h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.text-container p {
+    font-size: 0.65em;
+}
+
+/* Buttons styles */
+.btn-container button {
+    margin-top: 16px;
+    background-color: var(--accent-dark);
+    border: 2px solid var(--option-gray);
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    color: var(--option-gray);
+    text-shadow: 1px 1px 1px var(--items-light);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-container button:hover {
+    border: 2px solid var(--items-light);
+}
+
+.btn-container button:active {
+    position: relative;
+    top: 1px;
+}
