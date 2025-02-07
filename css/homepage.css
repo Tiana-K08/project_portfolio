@@ -59,6 +59,7 @@
 
 .btn-container button:hover {
     border: 2px solid var(--items-light);
+    cursor: pointer;
 }
 
 .btn-container button:active {
