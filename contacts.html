@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 <body>
     <header class="header-wrapper">
@@ -35,18 +35,38 @@
         </div>
     </header>
 
-    <main class="homepage-wrapper">
-        <section class="text-container">
-            <h2>Hello! I'm <span>Tetiana Kononenko</span></h2>
-            <h3>Frontend Developer</h3>
-            <p>My code is the magic that brings ideas to life</p>
-        </section>
-        <section class="btn-container">
-            <button id="download-file">Download CV</button>
-        </section>
+    <main class="contactspage-wrapper">
+        <div class="cards-wrapper">
+            <!-- 1 -->
+            <div class="card-container">
+                <div class="img-wrapper">
+                    <img src="images/phone.jpg" alt="phone">
+                </div>
+                <div class="content-wrapper">
+                    <p>+34 671 255 602</p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card-container">
+                <div class="img-wrapper">
+                    <img src="images/mail.jpg" alt="mail">
+                </div>
+                <div class="content-wrapper">
+                    <p>tetkononenko2020@gmail.com</p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card-container">
+                <div class="img-wrapper">
+                    <img src="images/location.jpg" alt="location">
+                </div>
+                <div class="content-wrapper">
+                    <p>Irún, Gipuzkoa</p>
+                </div>
+            </div>    
+        </div>
     </main>
     
     <script src="js/toggle_dark_light.js"></script>
-    <script src="js/download_cv.js"></script>
 </body>
 </html>

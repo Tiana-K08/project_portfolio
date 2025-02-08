@@ -1,5 +1,4 @@
-.main-wrapper {
-    background-color: var(--bg-dark);
+.homepage-wrapper {
     height: calc(100vh - 138px);
     min-height: fit-content;
     padding: 0 20px;
@@ -14,37 +13,37 @@
 }
 
 /* Text styles */
-.text-container {
+.homepage-wrapper > .text-container {
     margin-top: -46px;
     color: var(--items-light);
     text-align: center;
     font-size: 1.8rem; 
 }
 
-.text-container h2 {
+.homepage-wrapper > .text-container h2 {
     font-family: "Nunito", sans-serif;
     letter-spacing: 2px;
     margin-bottom: 7px;
 }
 
-.text-container span {
+.homepage-wrapper > .text-container span {
     color: var(--accent-dark);
     text-shadow: 2px 1px 1px var(--items-light);
 }
 
-.text-container h3 {
+.homepage-wrapper > .text-container h3 {
     font-family: "Nunito", sans-serif;
     font-size: 1.1em;
     letter-spacing: 1px;
     margin-bottom: 35px;
 }
 
-.text-container p {
+.homepage-wrapper > .text-container p {
     font-size: 0.65em;
 }
 
 /* Buttons styles */
-.btn-container button {
+.homepage-wrapper > .btn-container button {
     margin-top: 16px;
     background-color: var(--accent-dark);
     border: 2px solid var(--option-gray);
@@ -57,12 +56,12 @@
     font-weight: 700;
 }
 
-.btn-container button:hover {
+.homepage-wrapper > .btn-container button:hover {
     border: 2px solid var(--items-light);
     cursor: pointer;
 }
 
-.btn-container button:active {
+.homepage-wrapper > .btn-container button:active {
     position: relative;
     top: 1px;
 }
