@@ -13,7 +13,7 @@
     height: 250px;
     margin: 0 40px 20px 0;
     float: left;
-    border: 3px solid var(--accent-dark);
+    border: 3px solid var(--option-gray);
     border-radius: 50%;
 }
 

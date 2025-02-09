@@ -1,0 +1,35 @@
+.skillspage-wrapper {
+    height: calc(100vh - 138px);
+    min-height: fit-content;
+    padding: 0 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillspage-wrapper > .content-container {
+    color: var(--items-light);
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -48px;
+}
+
+.skills-wrapper {
+    margin: 50px 0;
+}
+
+.skills-wrapper h1 {
+    font-family: "Nunito", sans-serif;
+    color: var(--accent-dark);
+    margin-bottom: 6px;
+}
+
+.skills-wrapper p, li {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.skills-wrapper li {
+    list-style-type: none;
+    display: inline;
+}
