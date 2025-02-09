@@ -22,3 +22,7 @@ html, body, button {
 body {
     background-color: var(--bg-dark);
 }
+
+.spacer40 {
+    height: 40px;
+}

@@ -1,17 +1,16 @@
 .contactspage-wrapper {
     height: calc(100vh - 138px);
     min-height: fit-content;
-    padding: 90px;
+    padding: 70px 10vw 118px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contactspage-wrapper > .cards-wrapper {
-    margin-top: -46px;
     width: 100%;
     display: flex;
-    gap: 60px;
+    gap: 100px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -24,6 +23,7 @@
     border-radius: 10px;
 }
 
+/* Front styles */
 .cards-wrapper > .card-container > .img-wrapper {
     position: absolute;
     top: 0;
@@ -45,6 +45,7 @@
     transform: translate(-35px, -35px);
 }
 
+/* Back styles */
 .cards-wrapper > .card-container > .content-wrapper {
     position: absolute;
     top: 0;

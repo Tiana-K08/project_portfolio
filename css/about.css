@@ -1,0 +1,33 @@
+.aboutpage-wrapper {
+    height: calc(100vh - 138px);
+    min-height: fit-content;
+    padding: 0 25vw 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Description styles */
+.aboutpage-wrapper > .content-container > .img-wrapper {
+    width: 250px;
+    height: 250px;
+    margin: 0 40px 20px 0;
+    float: left;
+    border: 3px solid var(--accent-dark);
+    border-radius: 50%;
+}
+
+.aboutpage-wrapper > .content-container > .img-wrapper img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.aboutpage-wrapper > .content-container p {
+    color: var(--items-light);
+    font-size: clamp(16px, 1.6vw, 36px);
+    text-indent: 60px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+}
