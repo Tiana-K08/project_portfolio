@@ -24,6 +24,11 @@ body {
     color: var(--items-light);
 }
 
+.light-mode {
+    background-color: var(--bg-light);
+    color: var(--items-dark);
+}
+
 .spacer40 {
     height: 40px;
 }

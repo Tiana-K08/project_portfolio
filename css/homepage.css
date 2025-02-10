@@ -6,10 +6,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/bg-homepage.png);
+    background-image: url(../images/bg-homepage-dark.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+}
+
+.bg-img-light-mode {
+    background-image: url(../images/bg-homepage-light.png);
 }
 
 /* Text styles */
@@ -28,6 +32,10 @@
 .homepage-wrapper > .text-container span {
     color: var(--accent);
     text-shadow: 2px 1px 1px var(--items-light);
+}
+
+.shadow-text-light-mode {
+    text-shadow: 2px 1px 1px var(--items-dark) !important;
 }
 
 .homepage-wrapper > .text-container h3 {
