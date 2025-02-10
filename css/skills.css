@@ -8,7 +8,6 @@
 }
 
 .skillspage-wrapper > .content-container {
-    color: var(--items-light);
     text-align: center;
     font-size: 1.4rem;
     margin-top: -48px;
@@ -20,7 +19,7 @@
 
 .skills-wrapper h1 {
     font-family: "Nunito", sans-serif;
-    color: var(--accent-dark);
+    color: var(--accent);
     margin-bottom: 6px;
 }
 

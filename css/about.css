@@ -23,7 +23,6 @@
 }
 
 .aboutpage-wrapper > .content-container p {
-    color: var(--items-light);
     font-size: clamp(16px, 1.6vw, 36px);
     text-indent: 60px;
     font-style: italic;

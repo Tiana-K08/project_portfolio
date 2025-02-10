@@ -15,7 +15,6 @@
 /* Text styles */
 .homepage-wrapper > .text-container {
     margin-top: -48px;
-    color: var(--items-light);
     text-align: center;
     font-size: 1.8rem; 
 }
@@ -27,7 +26,7 @@
 }
 
 .homepage-wrapper > .text-container span {
-    color: var(--accent-dark);
+    color: var(--accent);
     text-shadow: 2px 1px 1px var(--items-light);
 }
 
@@ -45,7 +44,7 @@
 /* Buttons styles */
 .homepage-wrapper > .btn-container button {
     margin-top: 16px;
-    background-color: var(--accent-dark);
+    background-color: var(--accent);
     border: 2px solid var(--option-gray);
     border-radius: 10px;
     width: 170px;

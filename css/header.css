@@ -1,9 +1,5 @@
-.header-wrapper {
-    background-color: var(--bg-dark);
-    color: var(--items-light);
-}
-
 .header-container {
+    background-color: var(--bg-dark);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
@@ -87,7 +83,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    background-color: #272727;
+    background-color: var(--option-gray);
     width: 52px;
     height: 28px;
     border-radius: 50px;
