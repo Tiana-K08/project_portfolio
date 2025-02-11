@@ -44,6 +44,11 @@
         margin: 12px 0 6px;
     }
 
+    /* Home page styles */
+    .homepage-wrapper {
+        justify-content: flex-start;
+    }
+
     /* About styles */
     .aboutpage-wrapper > .content-container > .img-wrapper {
         float: none;
