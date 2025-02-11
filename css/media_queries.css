@@ -12,7 +12,17 @@
     .header-container > .connect-wrapper {
         grid-column: 2 / 3;
     }
+    /* About styles */
+    .aboutpage-wrapper { 
+        padding: 0 18vw 48px;
+    }
+
+    /* Skills styles */
+    .skillspage-wrapper {
+        padding: 0 18vw;
+    }
 }
+
 
 
 @media (max-width: 768px) {
@@ -32,5 +42,38 @@
         grid-column: 1 / 2;
         justify-self: center;
         margin: 12px 0 6px;
+    }
+
+    /* About styles */
+    .aboutpage-wrapper > .content-container > .img-wrapper {
+        float: none;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+    }
+
+    /* Skills styles */
+    .skills-wrapper ul:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    /* Skills styles */
+    .skills-wrapper li {
+        font-size: 0.7em;
+    }
+
+    /* Contacts styles */
+    .cards-wrapper > .card-container:hover .img-wrapper {
+        transform: translate(0, -35px);
+    }
+
+    .cards-wrapper > .card-container:hover > .content-wrapper {
+        transform: translate(0, 35px);
     }
 }

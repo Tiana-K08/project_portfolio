@@ -23,12 +23,10 @@
     margin-bottom: 6px;
 }
 
-.skills-wrapper p, li {
+.skills-wrapper li {
     font-size: 0.9em;
     letter-spacing: 1px;
-}
-
-.skills-wrapper li {
     list-style-type: none;
     display: inline;
+    white-space: nowrap;
 }

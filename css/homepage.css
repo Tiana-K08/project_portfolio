@@ -1,7 +1,8 @@
 .homepage-wrapper {
-    height: calc(100vh - 138px);
+    height: calc(100vh - 186px);
     min-height: fit-content;
-    padding: 0 20px;
+    padding: 0 10vw;
+    margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +19,6 @@
 
 /* Text styles */
 .homepage-wrapper > .text-container {
-    margin-top: -48px;
     text-align: center;
     font-size: 1.8rem; 
 }
