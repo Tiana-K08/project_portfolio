@@ -21,18 +21,26 @@
 }
 
 /* Nav styles */
+.header-container > .nav-wrapper {
+    width: 100%;
+    margin: 10px 0;
+}
+
 .header-container > .nav-wrapper > .nav-list {
     display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    height: 32px;
+    white-space: nowrap;
 }
 
 .header-container > .nav-wrapper > .nav-list li {
     flex: 1;
     text-align: center;
+    align-content: center;
     list-style-type: none;
+    min-width: 110px;
+    height: 32px; 
 }
 
 .header-container > .nav-wrapper > .nav-list a {
